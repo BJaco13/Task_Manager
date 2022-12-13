@@ -19,6 +19,6 @@ password adm1n
 
 Any other details regarding users details or task details can also be accessed via the textfiles themselves if you should want to corrolate any data or get other login data.
 
-![This is an image](https://)
+![Showcasing the app](https://github.com/BJaco13/Task_Manager/blob/main/task_manager.py.py%20-%20Untitled%20(Workspace)%20-%20Visual%20Studio%20Code%2012_13_2022%209_03_32%20AM.png)
 
-![This is an image](https://)
+![Showcasing the app](https://github.com/BJaco13/Task_Manager/blob/main/task_manager.py.py%20-%20Untitled%20(Workspace)%20-%20Visual%20Studio%20Code%2012_13_2022%209_03_52%20AM.png)
