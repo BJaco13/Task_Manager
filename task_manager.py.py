@@ -9,7 +9,7 @@ def main_menu(username, all_users, all_tasks, total_num_of_tasks):
         menu = ""
         # Presenting the menu to the user and making sure that the user input is converted to lower case.
         if username != 'admin':
-            menu = input('''Select one of the following Options below:
+            menu = input('''\n\tSelect one of the following Options below:
 r - Registering a user
 a - Adding a task
 va - View all tasks
@@ -20,7 +20,7 @@ e - Exit
         elif username == 'admin':
             # Adding a special option for the admin of the program to be able to see statistics.
             # Only the admin is allowed to view the statistics so it's only made availble to him
-            menu = input('''Select one of the following Options below:
+            menu = input('''\n\tSelect one of the following Options below:
 r - Registering a user
 a - Adding a task
 va - View all tasks
@@ -178,7 +178,7 @@ def add_task(all_users):
     # Add a while not loop to make sure user that is entered is a user that exists within the data files
     a_user = ""
     while a_user not in all_users:
-        a_user = input("Please enter the user you would like to assign the task to: ")
+        a_user = input("\nPlease enter the user you would like to assign the task to: ")
     a_task_title = input("Please enter a title: ")
     a_description = input("Please enter a description: ")
     a_due_date = input("Please enter a due date in the format as the example '10 Oct 2019': ")
@@ -492,7 +492,7 @@ def user_overview(all_tasks, all_users):
 
 #===== Login Section =====
 
-print("Welcome to the Task Manager App")
+print("\n\tWelcome to the Task Manager App\n")
 
 # Declare variables for use in this section but also for the rest of the program
 username = ""
