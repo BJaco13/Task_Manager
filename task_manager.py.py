@@ -263,7 +263,7 @@ def view_mine():
 
         # Ask the user which tasks they want to select, then ask the appropriate questions regarding the task
 
-        # Use While Loop to check that input is a didgit then cast to an int variable
+        # Use While Loop to check that input is a digit then cast to an int variable
         va_first_menu = ""
         while va_first_menu.isdigit() == False:
             va_first_menu = input("""* Please enter the task number of the task that you want to select
@@ -275,7 +275,7 @@ def view_mine():
         va_first_menu = int(va_first_menu)
 
         if va_first_menu in users_tasks_dict:
-            
+
             # Use While Loop to check that input is a didgit then cast to an int variable
             va_second_menu = ""
             while va_second_menu.isdigit() == False:
